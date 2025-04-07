@@ -1,10 +1,11 @@
+
 .navBar{
     width: 100%;
     position: fixed;
     display: flex;
     align-items: center;
-    gap: 2vh;
     justify-content: center;
-    background-color: var(--branco);
-    color: var(--preto);
+    gap: 2vw;
+    background-color: var(--bg);
+    color: var(--text);
 }
