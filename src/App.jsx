@@ -1,28 +1,20 @@
-// import style from './App.module.css';
-import {Menu} from './components/menu';
-
+// import style from './App.module.css'
+import { Menu } from './components/menu'
 
 function App() {
   return (
     <>
-      <Menu option01='sessão 1' option02='sessão 2' option03='sessão 3' option04='sessão 4' />
-      <main>
-        <section id='s1'>
-          <h1>sessão 1</h1>
-        </section>
-        <section id='s2'>
-          <h1>sessão 2</h1>
-        </section>
-        <section id='s3'>
-           <h1>sessão 3</h1>
-        </section>
-        <section id='s4'>
-          <h1>sessão 4</h1>
-        </section>
-      </main>
+     <Menu option01='Sessão 01' option02='Sessão 02' option03='Contato'/>
+     <main>
+      <section id='s1'>
+        <h2>sessao 1</h2>
+      </section>
+      <section id='s2'>
+        <h2>sessao 2</h2>
+      </section>
+     </main>
     </>
-  );
+  )
 }
-
 
 export default App

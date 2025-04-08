@@ -8,7 +8,7 @@ import {
 
 import './index.css'
 import App from './App.jsx'
-import Contact from './contact.jsx'
+import Contact from './Contact.jsx'
 
 import { Analytics } from "@vercel/analytics/react"
 
